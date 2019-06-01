@@ -1,0 +1,43 @@
+body {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    background-color:lightsteelblue
+}
+
+#div1 , #div2 {
+    border:1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px
+}
+
+#burger div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#div1 h1 , #div1 #burger , #div2 h2 , .closeX {
+    display: inline-block
+}
+
+#div1 #burger , #div2 .closeX {
+    float: right;
+    cursor: pointer;
+}
+
+.closeX {
+    font:700 25px verdana
+}
+
+.clear {
+    clear: both
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
